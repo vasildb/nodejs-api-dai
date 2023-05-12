@@ -1,0 +1,21 @@
+{
+	"name": "nodejs-api-dai",
+	"version": "1.0.0",
+	"description": "A REST API that provides information about the DAI smart contract, listing transactions, account balances and general usage statistics.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "./node_modules/mocha/bin/mocha.js tests/ --exit"
+	},
+	"author": "Vasil Zidrovski",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"sqlite3": "^5.1.6",
+		"web3": "^1.9.0"
+	},
+	"devDependencies": {
+		"mocha": "^10.2.0",
+		"supertest": "^6.3.3"
+	}
+}
